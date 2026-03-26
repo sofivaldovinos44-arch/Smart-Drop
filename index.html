@@ -1,0 +1,182 @@
+<html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Drop - Sistema de Riego Automatizado</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg,#4ecdc4,#2a9d8f);
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+
+header{
+    padding: 40px;
+    background: rgba(0,0,0,0.2);
+}
+
+h1{
+    font-size: 48px;
+    margin: 0;
+}
+
+.slogan{
+    font-size: 20px;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.container{
+    max-width: 800px;
+    margin: auto;
+    padding: 40px;
+    background: rgba(0,0,0,0.2);
+    border-radius: 15px;
+}
+
+p{
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.cta{
+    margin-top: 30px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* estilo para imágenes */
+img{
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* galería */
+.galeria{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.galeria img{
+    width: 200px;
+}
+
+footer{
+    margin-top: 40px;
+    padding: 15px;
+    background: rgba(0,0,0,0.2);
+}
+</style>
+</head>
+
+<body>
+
+<header>
+
+<!-- LOGO -->
+<img src=imagenes/LOGOTIPO.jpeg alt="Logo Smart Drop" width="120">
+
+<h1>Smart Drop 💧</h1>
+<p class="slogan">Cada gota cuenta</p>
+
+</header>
+
+<div class="container">
+
+<p>
+En México, estados como Chihuahua, Sonora y Nuevo León enfrentan
+sequías que reducen el agua disponible para el riego.
+Esto afecta tanto a pequeños cultivos como al cuidado de plantas en jardines.
+</p>
+
+<p>
+Para ayudar a enfrentar este problema desarrollamos <b>Smart Drop</b>,
+un sistema de riego automatizado que optimiza el uso del agua
+y evita desperdicios mediante tecnología accesible.
+</p>
+
+<!-- IMAGEN DEL PROTOTIPO -->
+<img src=imagenes/PROTO.jpeg alt="Prototipo Smart Drop">
+
+<p class="cta">
+Porque cuando el agua es limitada, cada gota cuenta…
+y Smart Drop está diseñado para ayudarte a cuidarla mientras tus plantas siguen creciendo.
+</p>
+
+<!-- GALERÍA DE IMÁGENES -->
+<h2>Galería del prototipo</h2>
+
+<div class="galeria">
+
+<td><img src=imagenes/TERCERO.jpeg alt="ARDUINO"></td>
+<td><img src=imagenes/SEGUNDO.jpeg alt="JARDÍN"></td>
+<td><img src=imagenes/PRIMER.jpeg alt="BOMBA"></td>
+
+<h2>Cómo hacer un Smart Drop</h2>
+
+<p>
+A continuación se muestra una guía básica para construir un sistema de riego
+automatizado Smart Drop utilizando componentes electrónicos simples.
+Este sistema permite regar plantas automáticamente y optimizar el uso del agua.
+</p>
+
+<img src="imagenes/MANU1.jpeg" alt="Prototipo Smart Drop" width="400">
+
+<p>
+Primero se conectan los componentes principales: el Arduino, el sensor de
+humedad y la bomba de agua utilizando una protoboard y cables de conexión.
+El sensor se coloca en la tierra para medir la humedad del suelo y enviar
+información al sistema.
+</p>
+
+<img src="imagenes/MANU2.jpeg" alt="Componentes del sistema" width="400">
+
+<p>
+Cuando el sensor detecta que la tierra está seca, el Arduino activa la bomba
+de agua para comenzar el riego. De esta manera el sistema mantiene las plantas
+hidratadas automáticamente y evita el desperdicio de agua.
+</p>
+
+<hr style="margin:50px 0; border:1px solid rgba(255,255,255,0.4);">
+
+<h2>Información adicional</h2>
+
+<p>
+Smart Drop es un proyecto desarrollado con el objetivo de demostrar cómo
+la tecnología puede aplicarse para resolver problemas reales relacionados
+con el uso del agua. A través de componentes electrónicos accesibles y
+energía sustentable, este sistema propone una alternativa simple para
+automatizar el riego de plantas y pequeños cultivos.
+</p>
+
+<p>
+Este tipo de soluciones pueden adaptarse a jardines domésticos, huertos
+escolares y pequeños espacios de cultivo, ayudando a mejorar el cuidado
+de las plantas y a reducir el desperdicio de agua.
+</p>
+
+<p>
+El desarrollo de Smart Drop también busca fomentar la innovación,
+el aprendizaje tecnológico y la conciencia sobre la importancia
+de utilizar los recursos naturales de forma responsable.
+</p>
+
+</div>
+
+</div>
+
+<footer>
+Proyecto escolar • Sistema de riego automatizado sustentable
+</footer>
+
+</body>
+</html>
